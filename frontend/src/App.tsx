@@ -1,8 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-
 function App() {
-  return (
+  return ( 
     <h1>Página principal</h1>
   );
 }
