@@ -4,14 +4,16 @@ import './style.css';
 function Navbar(){
 
     return(
-    <header>|
+    <header>
       <nav className='container'>
         <div className='dsmovie-nav-content'>
           <h1>DSMovie</h1>
+
           <a href="https://github.com/isaacnfernandes">
-            <div>
+           
+            <div className="dsmovie-contact-content">
               <GithubIcon />
-              <p>/devsuperior</p>
+              <p className="dsmovie-contact-link">/devsuperior</p>
             </div>
 
           </a>
